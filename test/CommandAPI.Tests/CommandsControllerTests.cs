@@ -404,8 +404,8 @@ namespace CommandAPI.Tests
             var result = controller.DeleteCommandItem(-1);
 
             //Assert
-            //Assert.IsType<NotFoundResult>(result.Result);
-            Assert.IsType<OkResult>(result.Result);
+            Assert.IsType<NotFoundResult>(result.Result);
+            
         }
 
         [Fact]
