@@ -26,8 +26,8 @@ namespace CommandAPI.Controllers
         {
             var commandItem = _context.CommandItems.Find(id);
 
-            if (commandItem == null)
-                return NotFound();
+            //if (commandItem == null)
+            //    return NotFound();
 
             return commandItem;
         }
