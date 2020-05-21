@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using CommandAPI.Controllers;
 using CommandAPI.Models;
+using CommandAPI.Data;
 
 namespace CommandAPI.Tests
 {
