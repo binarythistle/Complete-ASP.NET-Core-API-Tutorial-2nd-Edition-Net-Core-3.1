@@ -405,6 +405,7 @@ namespace CommandAPI.Tests
 
             //Assert
             Assert.IsType<NotFoundResult>(result.Result);
+          
             
         }
 
